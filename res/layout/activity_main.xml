@@ -1,0 +1,322 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="app.buusk.resume_55410128.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="100dp"
+        android:layout_height="100dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/katuy" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:text="Ruttiporn"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="45dp"
+            android:text="Edit Profile" />
+
+        <Button
+            android:id="@+id/btnimg"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="Image View" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="3dp"
+        android:text="Burapha University Sakaeo Campus"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textStyle="bold|italic" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="21dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginTop="2dp"
+        android:text="Nickname"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginTop="2dp"
+        android:text="Katuy"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/View01"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="3dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/View01"
+        android:layout_below="@+id/View01"
+        android:layout_marginTop="3dp"
+        android:text="Age"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignRight="@+id/View01"
+        android:text="21"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/View02"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="3dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/View02"
+        android:layout_below="@+id/View02"
+        android:layout_marginTop="3dp"
+        android:text="Birthday"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignRight="@+id/View02"
+        android:text="23/11/1993"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/View03"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="3dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/View03"
+        android:layout_below="@+id/View03"
+        android:layout_marginTop="3dp"
+        android:text="City"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView9"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignRight="@+id/View03"
+        android:text="Nakhonsawan"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/View04"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="3dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/View04"
+        android:layout_below="@+id/View04"
+        android:text="Phone"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignRight="@+id/View04"
+        android:layout_marginTop="3dp"
+        android:text="0920437504"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/View05"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="3dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView13"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignRight="@+id/View05"
+        android:text="Business Computer"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/View05"
+        android:layout_below="@+id/View05"
+        android:layout_marginTop="3dp"
+        android:text="Study"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/View06"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_below="@+id/textView14"
+        android:layout_marginTop="3dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="3dp"
+        android:text="Facebook"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView14"
+        android:layout_below="@+id/textView14"
+        android:layout_marginTop="3dp"
+        android:text="Ruttiporn Kundachanuwat"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/View07"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="3dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/View07"
+        android:layout_below="@+id/View07"
+        android:layout_marginTop="3dp"
+        android:text="taro0835563663@hotmail.com"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_below="@+id/View07"
+        android:layout_marginTop="3dp"
+        android:text="E-mail"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/View08"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#cccccc" />
+
+    <View
+        android:id="@+id/View09"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_below="@+id/textView18"
+        android:layout_marginTop="3dp"
+        android:background="#cccccc" />
+
+</RelativeLayout>
